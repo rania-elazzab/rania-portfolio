@@ -21,8 +21,11 @@ function ScrollProgress() {
   }, []);
 
   return (
-    <div className="scroll-progress" aria-hidden="true">
-      <div className="scroll-progress-fill" style={{ width: `${progress}%` }}></div>
+    <div className="fixed inset-x-0 top-0 z-[60] h-1 bg-transparent" aria-hidden="true">
+      <div
+        className="h-full bg-gradient-to-r from-rose via-berry to-plum-700 shadow-[0_0_10px_rgba(141,49,83,0.6)] transition-[width] duration-150"
+        style={{ width: `${progress}%` }}
+      ></div>
     </div>
   );
 }

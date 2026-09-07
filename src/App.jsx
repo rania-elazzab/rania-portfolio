@@ -1,4 +1,3 @@
-import "./App.css";
 import { useScrollEffects } from "./hooks/useScrollEffects";
 import Loader from "./components/Loader";
 import Navbar from "./components/Navbar";
