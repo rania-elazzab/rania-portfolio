@@ -58,13 +58,15 @@ export const projects = [
   },
   {
     number: "02",
-    title: "NOVA VELVET",
-    category: "MARKETPLACE",
-    status: "IN DEVELOPMENT",
+    title: "SEOUL BITE",
+    category: "RESTAURANT WEBSITE",
+    status: "PUBLISHED",
     description:
-      "A modern marketplace concept designed around digital products, services and a premium user experience.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    className: "nova-card"
+      "A modern Korean restaurant website built with an elegant visual style, interactive menu, responsive design, and smooth user interactions.",
+    technologies: ["React", "Vite", "JavaScript", "CSS"],
+    className: "seoul-bite-card",
+    live: "https://seoul-bitt-dxpw61c2i-rania17.vercel.app/",
+    github: "https://github.com/rania-elazzab/seoul-bitt"
   },
   {
     number: "03",
