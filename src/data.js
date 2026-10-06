@@ -87,5 +87,38 @@ export const projects = [
       "A separate React project exploring components, interactions, animation and modern interface ideas.",
     technologies: ["React", "JavaScript", "CSS"],
     className: "creative-card"
+  },
+  {
+    number: "05",
+    title: "CVISION AI",
+    category: "AI WEB APPLICATION",
+    status: "PUBLISHED",
+    description:
+      "An AI-powered CV analyzer and smart job matching platform designed to help users analyze their resumes and discover relevant opportunities.",
+    technologies: ["React", "Node.js", "MongoDB", "AI"],
+    className: "cvision-ai-card",
+    live: "https://cv-vision-ai-nu.vercel.app/"
+  },
+  {
+    number: "06",
+    title: "FOOD CORNER",
+    category: "FOOD WEBSITE",
+    status: "PUBLISHED",
+    description:
+      "A modern food website designed with an engaging interface and interactive experience for exploring food and restaurant content.",
+    technologies: ["React", "Vite", "JavaScript", "CSS"],
+    className: "food-corner-card",
+    live: "https://s-r-psi.vercel.app/home"
+  },
+  {
+    number: "07",
+    title: "TASKFLOW",
+    category: "TASK MANAGEMENT",
+    status: "PUBLISHED",
+    description:
+      "A full-stack task management application built to organize clients and tasks through a clean and practical interface.",
+    technologies: ["React", "Node.js", "Express", "MongoDB"],
+    className: "taskflow-card",
+    live: "https://todo-client-app.vercel.app/"
   }
 ];
